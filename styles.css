@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+    color: inherit;
+}
+
+header {
+    position: fixed;
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+
+    z-index: 1;
+}
+
+.foto {
+    position: relative;
+    display: inline;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.foto img {
+    width: 100%;
+    height: 500px;
+}
+
+h1 {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 255, 0.562);
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    height: 100px;
+    margin-top: 400px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.aba {
+    position: fixed;
+    background-color: blue;
+    width: 70px;
+    left: -55px;
+    top: 50px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.imagem {
+    margin: 10px 0px;
+    width: 50px;
+    height: 50px;
+
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.aba:hover {
+    left: 0px;
+}
+
+.texto {
+    padding: 20px;
+
+    text-align: justify;
+}
+
+.texto h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+button {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+button a img {
+    height: 40px;
+    width: 40px;
+}
